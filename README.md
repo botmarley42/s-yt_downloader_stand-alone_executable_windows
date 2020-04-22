@@ -13,5 +13,6 @@ resource object code. The original resources like the logos .png,.icon etc. can 
 The following modules/plugins for python were used:
 
 pyInstaller in Version 3.6
+
 pyQt5 in Version 5.13.1
 
