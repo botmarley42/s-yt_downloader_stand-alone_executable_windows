@@ -11,8 +11,8 @@ import sys
 import os
 import youtube_downloader.yt_resources
 
-
-#used 3 to prevent console for ffmeg to open up in the postprocessor, ffmpeg.py
+#creationflags=subprocess.CREATE_NO_WINDOW
+#used to prevent console for ffmeg to open up in the postprocessor in python_youtube_downloader\Lib\site-packages\youtube_dl\postprocessor\ffmpeg.py
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
