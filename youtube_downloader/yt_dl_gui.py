@@ -141,8 +141,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "YouTube/Soundcloud Downloader by MAS"))
-        self.label.setText(_translate("MainWindow", "YouTube/Soundcloud Downloader made by MAS"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "YouTube/Soundcloud Downloader by botmarley42"))
+        self.label.setText(_translate("MainWindow", "YouTube/Soundcloud Downloader made by botmarley42"))
         self.statuslabel.setText(_translate("MainWindow", ""))
         self.youtube_btn.setToolTip(_translate("MainWindow", "Press this button to get to Youtube.com"))
         self.youtube_btn.setStatusTip(_translate("MainWindow", "Press this button to get to Youtube.com"))
