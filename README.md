@@ -8,7 +8,9 @@ The Pyinstaller settings can be configured here.
 The main python source code can be found in "youtube_downloader\yt_dl_gui.py"
 
 The yt_resources.py file is a result of the Resource Compiler for PyQt5 and contains the logos of soundcloud etc. in
-resource object code. The original resources like the logos .png,.icon etc. can be found in "youtube_downloader\ytdl_resources" directory. 
+resource object code. The original resources like the logos .png,.icon etc. can be found in "youtube_downloader\ytdl_resources" directory.
+
+The "soundcloud_and_yt_downloader_version_info.txt" is used as a version file for the application in windows. You can see those information if you view the details of the app. 
 
 The following modules/plugins for python were used:
 
