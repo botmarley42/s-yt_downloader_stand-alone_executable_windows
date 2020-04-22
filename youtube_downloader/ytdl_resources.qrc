@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="ytdl_resources">
+    <file alias='soundcloud-logo.png'>ytdl_resources/soundcloud-logo.png</file>
+    <file alias='youtube_dl_icon.ico'>ytdl_resources/youtube_dl_icon.ico</file>
+    <file alias='youtube-logo.png'>ytdl_resources/youtube-logo.png</file>
+  </qresource>
+</RCC>
