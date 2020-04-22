@@ -20,3 +20,14 @@ pyInstaller in Version 3.6
 
 pyQt5 in Version 5.13.1
 
+
+This app is based on a different project from the user dstftw. https://github.com/ytdl-org/youtube-dl
+
+All rights belong to the creator of this project.
+
+FFMpeg is used to convert the .webm into .mp3
+
+ffmpeg version git-2019-10-19-31aafda 
+
+www.ffmpeg.org
+
