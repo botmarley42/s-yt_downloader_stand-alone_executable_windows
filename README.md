@@ -20,6 +20,7 @@ pyInstaller in Version 3.6
 
 pyQt5 in Version 5.13.1
 
+youtube_dl in Version/Commit 2020.03.24
 
 This app is based on a different project from the user dstftw: https://github.com/ytdl-org/youtube-dl
 
