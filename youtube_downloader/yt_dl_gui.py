@@ -183,7 +183,7 @@ class ThreadClass(QThread):
                 'prefer_ffmpeg': True,
                 'addmetadata': True,
                 'ffmpeg_location': ffmpeg_loc,
-                #'ffmpeg location': r'C:\Users\Marty\PycharmProjects\python_youtube_downloader\youtube_downloader\ytdl_resource\ffmpeg.exe',
+                #'ffmpeg location': r'C:\Users\%username%\PycharmProjects\python_youtube_downloader\youtube_downloader\ytdl_resource\ffmpeg.exe',
                 'nopart': True,
                 #'quiet': True,
                 # FFmpegMetadata needs to be used after FFmpegExtractAudio
