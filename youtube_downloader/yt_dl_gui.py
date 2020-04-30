@@ -11,8 +11,8 @@ import sys
 import os
 import youtube_downloader.yt_resources
 
-
-#used 3 to prevent console for ffmeg to open up in the postprocessor, ffmpeg.py
+#creationflags=subprocess.CREATE_NO_WINDOW
+#used to prevent console for ffmeg to open up in the postprocessor in python_youtube_downloader\Lib\site-packages\youtube_dl\postprocessor\ffmpeg.py
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
@@ -141,8 +141,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "YouTube/Soundcloud Downloader by MAS"))
-        self.label.setText(_translate("MainWindow", "YouTube/Soundcloud Downloader made by MAS"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "YouTube/Soundcloud Downloader by botmarley42"))
+        self.label.setText(_translate("MainWindow", "YouTube/Soundcloud Downloader made by botmarley42"))
         self.statuslabel.setText(_translate("MainWindow", ""))
         self.youtube_btn.setToolTip(_translate("MainWindow", "Press this button to get to Youtube.com"))
         self.youtube_btn.setStatusTip(_translate("MainWindow", "Press this button to get to Youtube.com"))
@@ -186,7 +186,7 @@ class ThreadClass(QThread):
                 'addmetadata': True,
                 'cachedir': False,
                 'ffmpeg_location': ffmpeg_loc,
-                #'ffmpeg location': r'C:\Users\Marty\PycharmProjects\python_youtube_downloader\youtube_downloader\ytdl_resource\ffmpeg.exe',
+                #'ffmpeg location': r'C:\Users\%username%\PycharmProjects\python_youtube_downloader\youtube_downloader\ytdl_resource\ffmpeg.exe',
                 'nopart': True,
                 #'quiet': True,
                 # FFmpegMetadata needs to be used after FFmpegExtractAudio
