@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['C:/Users/Marty/PycharmProjects/python_youtube_downloader/youtube_downloader/yt_dl_gui.py'],
-             pathex=['C:\\Users\\Marty\\Desktop\\s-yt_downloader_stand-alone_executable_windows\\python_youtube_downloader\\Scripts'],
+             pathex=['C:\\Users\\Marty\\Desktop\\python_youtube_downloader\\Scripts'],
              binaries=[],
              datas=[('C:/Users/Marty/PycharmProjects/python_youtube_downloader/youtube_downloader/ytdl_resources/ffmpeg.exe', '.')],
              hiddenimports=[],

@@ -173,15 +173,18 @@ class ThreadClass(QThread):
 
             # seems to work with pyinstaller but not in pycharm!
             # ytdl_resources if it should be tested in pycharm!
+            #'cachedir': False seems to be required because it could cause a "Unable to download video data: HTTP Error 403: Forbidden" Error
             ffmpeg_loc = resource_path('.\\ffmpeg.exe')
 
             download_options = {
+                'format': 'bestaudio/best',
                 'format': 'bestaudio/best',
                 'outtmpl': '%(title)s.%(ext)s',
                 'extractaudio': True,
                 'nocheckcertificate': True,
                 'prefer_ffmpeg': True,
                 'addmetadata': True,
+                'cachedir': False,
                 'ffmpeg_location': ffmpeg_loc,
                 #'ffmpeg location': r'C:\Users\Marty\PycharmProjects\python_youtube_downloader\youtube_downloader\ytdl_resource\ffmpeg.exe',
                 'nopart': True,
